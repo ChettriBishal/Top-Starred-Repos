@@ -16,7 +16,7 @@
 * The result loads in your default browser.
 * The names of the repositories are clickable and thus link to their GitHub source page.
 
-![Most Starred Vim](https://github.com/bistimulus/Shoot-Aliens/blob/main/Screenshots/Vim.png?raw=true)
+![Most Starred Vim](https://github.com/bistimulus/Top-Starred-Repos/blob/main/Screenshots/Vim.png?raw=true)
 
 ## Technologies
 Project is created with:
@@ -42,7 +42,7 @@ $ python3 repos_visual.py
 ```
 
 ## Screenshots
-![Screenshot 1](https://github.com/bistimulus/Shoot-Aliens/blob/main/Screenshots/Python.png?raw=true)
+![Screenshot 1](https://github.com/bistimulus/Top-Starred-Repos/blob/main/Screenshots/Python.png?raw=true)
 
-![Screenshot 2](https://github.com/bistimulus/Shoot-Aliens/blob/main/Screenshots/CPP.png?raw=true)
+![Screenshot 2](https://github.com/bistimulus/Top-Starred-Repos/blob/main/Screenshots/CPP.png?raw=true)
 
