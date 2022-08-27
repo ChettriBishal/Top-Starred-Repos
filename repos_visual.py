@@ -5,7 +5,8 @@ from plotly import offline
 
 #make an api call and store the response
 
-url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
+tech = input("Enter the technology or language to see it's most starred respositories: ")
+url = f'https://api.github.com/search/repositories?q={tech}&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
 r = requests.get(url,headers = headers)
 print(f"Status code: {r.status_code}")
@@ -47,7 +48,7 @@ data = [{
 }]
 
 graph_layout = {
-    'title': 'Most Starred Python Repositories on GitHub',
+    'title': f'Most Starred {tech} Repositories on GitHub',
     'titlefont': {'size': 28},
     # 'plot_bgcolor' : 'rgb(0,0,0,0)',
     'xaxis': {
@@ -63,5 +64,5 @@ graph_layout = {
 }
 
 fig = {'data': data, 'layout': graph_layout}
-offline.plot(fig,filename='python_repos.html')
+offline.plot(fig,filename='repos.html')
 
