@@ -1,5 +1,5 @@
 # Top-Starred-Repos
-* This script allows you to see the most starred repositories on GitHub for any technology. GitHub's API is used to get the required data in the form of json using the ```requests``` HTTP library. The formatted data is then scraped off to be used in plotly to create visually interpretable information about projects with most stars. 
+* This script allows you to see the most starred repositories on GitHub for any technology. GitHub's API is used to get the required data in the form of json using the ```requests``` HTTP library. The formatted data is then scraped off to be used in plotly to create visually interpretable information about projects which are most starred. 
 
 ## Table of contents
 * [General info](#general-info)
