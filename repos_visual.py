@@ -5,7 +5,7 @@ from plotly import offline
 
 #make an api call and store the response
 
-tech = input("Enter the technology or language to see it's most starred respositories: ")
+tech = input("Enter the technology or language to see its most starred respositories: ")
 url = f'https://api.github.com/search/repositories?q={tech}&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
 r = requests.get(url,headers = headers)
