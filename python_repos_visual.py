@@ -27,12 +27,26 @@ data = [{
     'type': 'bar', #type of chart
     'x': repo_names, # x axis
     'y': stars, #y axis
+    'marker':{
+        'color': 'rgb(60,100,150)',
+        'line': {'width': 1.5, 'color': 'rgb(25,25,25)'}
+    },
+    'opacity': 0.6,
 }]
 
 graph_layout = {
     'title': 'Most Starred Python Repositories on GitHub',
-    'xaxis': {'title': 'Repository'},
-    'yaxis': {'title': 'Stars'},
+    'titlefont': {'size': 28},
+    'xaxis': {
+        'title': 'Repository',
+        'titlefont': {'size': 24},
+        'tickfont': {'size': 14},
+    },
+    'yaxis': {
+        'title': 'Stars',
+        'titlefont': {'size': 24},
+        'tickfont': {'size': 14},
+    },
 }
 
 fig = {'data': data, 'layout': graph_layout}
